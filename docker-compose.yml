@@ -1,0 +1,8 @@
+version: "3"
+services:
+  rlcraft:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "25565:25565"
